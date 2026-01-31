@@ -1,0 +1,94 @@
+{
+  "num_features": [
+    "age",
+    "study_hours",
+    "class_attendance",
+    "sleep_hours"
+  ],
+  "cat_features": [
+    "gender",
+    "course",
+    "internet_access",
+    "sleep_quality",
+    "study_method",
+    "facility_rating",
+    "exam_difficulty"
+  ],
+  "feature_cols": [
+    "age",
+    "gender",
+    "course",
+    "study_hours",
+    "class_attendance",
+    "internet_access",
+    "sleep_hours",
+    "sleep_quality",
+    "study_method",
+    "facility_rating",
+    "exam_difficulty"
+  ],
+  "num_stats": {
+    "age": {
+      "min": 17.0,
+      "max": 24.0,
+      "mean": 20.545820634920634
+    },
+    "study_hours": {
+      "min": 0.08,
+      "max": 7.91,
+      "mean": 4.002337406507937
+    },
+    "class_attendance": {
+      "min": 40.6,
+      "max": 99.4,
+      "mean": 71.98726138412698
+    },
+    "sleep_hours": {
+      "min": 4.1,
+      "max": 9.9,
+      "mean": 7.072758031746033
+    }
+  },
+  "cat_choices": {
+    "gender": [
+      "female",
+      "male",
+      "other"
+    ],
+    "course": [
+      "b.com",
+      "b.sc",
+      "b.tech",
+      "ba",
+      "bba",
+      "bca",
+      "diploma"
+    ],
+    "internet_access": [
+      "no",
+      "yes"
+    ],
+    "sleep_quality": [
+      "average",
+      "good",
+      "poor"
+    ],
+    "study_method": [
+      "coaching",
+      "group study",
+      "mixed",
+      "online videos",
+      "self-study"
+    ],
+    "facility_rating": [
+      "high",
+      "low",
+      "medium"
+    ],
+    "exam_difficulty": [
+      "easy",
+      "hard",
+      "moderate"
+    ]
+  }
+}
